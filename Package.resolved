@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-mime-type",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nnabeyang/swift-mime-type",
+      "state" : {
+        "revision" : "99466f28ecdcda0c40feeebcdc7ae446fa6f2e3c",
+        "version" : "0.0.0"
+      }
+    },
+    {
+      "identity" : "swift-nio",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-nio.git",
+      "state" : {
+        "revision" : "d6e3762e0a5f7ede652559f53623baf11006e17c",
+        "version" : "2.39.0"
+      }
+    }
+  ],
+  "version" : 2
+}
