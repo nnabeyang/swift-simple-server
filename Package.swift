@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-nio.git", from: "2.39.0"),
-        .package(url: "https://github.com/nnabeyang/swift-mime-type", from: "0.0.0"),
+        .package(url: "https://github.com/nnabeyang/swift-mime-type", from: "0.0.2"),
     ],
     targets: [
         .target(

@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/nnabeyang/swift-mime-type",
       "state" : {
-        "revision" : "99466f28ecdcda0c40feeebcdc7ae446fa6f2e3c",
-        "version" : "0.0.0"
+        "revision" : "408cdfacab09ba815647108d73493bd60bdf9db2",
+        "version" : "0.0.2"
       }
     },
     {
