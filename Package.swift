@@ -13,6 +13,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/apple/swift-nio.git", from: "2.39.0"),
         .package(url: "https://github.com/nnabeyang/swift-mime-type", from: "0.0.2"),
+        .package(url: "https://github.com/vapor/console-kit", from: "4.0.0"),
     ],
     targets: [
         .target(
@@ -22,6 +23,7 @@ let package = Package(
                 .product(name: "NIOPosix", package: "swift-nio"),
                 .product(name: "NIOHTTP1", package: "swift-nio"),
                 .product(name: "MimeType", package: "swift-mime-type"),
+                .product(name: "ConsoleKit", package: "console-kit"),
             ]),
         .executableTarget(name: "example",
                           dependencies: [

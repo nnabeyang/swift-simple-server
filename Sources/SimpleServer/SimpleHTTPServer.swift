@@ -1,7 +1,8 @@
+import ConsoleKit
+import Dispatch
 import NIOCore
 import NIOHTTP1
 import NIOPosix
-import os
 
 public func listenAndServe(host: String, port: Int, responder: Responder) {
     let group = MultiThreadedEventLoopGroup(numberOfThreads: System.coreCount)
