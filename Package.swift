@@ -23,6 +23,17 @@ let package = Package(
                 .product(name: "NIOHTTP1", package: "swift-nio"),
                 .product(name: "MimeType", package: "swift-mime-type"),
             ]),
+        .executableTarget(name: "example",
+                          dependencies: [
+                            .product(name: "NIOCore", package: "swift-nio"),
+                            .product(name: "NIOPosix", package: "swift-nio"),
+                            .product(name: "NIOHTTP1", package: "swift-nio"),
+                            .product(name: "MimeType", package: "swift-mime-type"),
+                            "SimpleServer",
+                          ],
+                          path: "Example",
+                          resources: [.copy("./static")]
+                         ),
         .testTarget(
             name: "SimpleServerTests",
             dependencies: ["SimpleServer"]),
