@@ -1,0 +1,19 @@
+{
+	"name": "Docker from Docker Compose",
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/home/user/work",
+	"settings": {
+		"terminal.integrated.defaultProfile.linux": "bash",
+		"[swift]": {
+			"editor.formatOnSave": true
+		},
+		"sourcekit-lsp.serverPath": "/usr/bin/sourcekit-lsp",
+		"apple-swift-format.path": "/usr/bin/swift-format"
+	},
+	"extensions": [
+        "vknabel.vscode-apple-swift-format",
+        "sswg.swift-lang"
+	],
+	"remoteUser": "user"
+}
